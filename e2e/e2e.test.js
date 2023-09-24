@@ -11,9 +11,9 @@ describe('Popover', () => {
 
   beforeAll(async () => {
     browser = await puppetteer.launch({
- /*     headless: false,
+      /*     headless: false,
       slowMo: 250,
-      devtools: true,*/
+      devtools: true, */
     });
     page = await browser.newPage();
   });
